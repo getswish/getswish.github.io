@@ -5,11 +5,7 @@ body {
   background-size: cover;
   background-position: left top;
   background-attachment: fixed;
-<<<<<<< HEAD
   font: 400 1em/1.38 'Open Sans';
-=======
-  font: normal 1em/1.38 OpenSans;
->>>>>>> 3ff8ffc5e2232495b2c44cd228761fd08ea49422
   color: rgb(255, 255, 255);
 }
 
