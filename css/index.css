@@ -7,12 +7,14 @@ body {
 }
 
 .container {
-  position: relative;
-  float: left;
+  position: fixed;
+  top: 52px;
+  left: 0;
+  right: 0;
   z-index: 2;
-  width: 100%;
-  height: 451px;
-  margin-top: 69px;
+  width: 568px;
+  height: 452px;
+  margin: 0 auto;
 }
 
 .image {
@@ -40,10 +42,10 @@ body {
 .image-1 {
   top: 0;
   z-index: 1;
-  width: 5.99852071%;
+  width: 13%;
 }
 
 .image-2 {
   top: 199px;
-  width: 50%;
+  width: 100%;
 }
