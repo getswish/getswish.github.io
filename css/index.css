@@ -49,3 +49,36 @@ body {
   top: 199px;
   width: 100%;
 }
+
+@media(max-width: 720px) {
+  .container {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .image {
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .wrapper {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .image-1 {
+    width: 13.0285274132%;
+  }
+
+  .container .image-2 {
+    width: 78.8888888888%;
+  }
+}
