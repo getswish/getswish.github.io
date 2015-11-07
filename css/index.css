@@ -51,6 +51,10 @@ body {
 }
 
 @media(max-width: 720px) {
+  body {
+    background-attachment: fixed;
+  }
+
   .container {
     left: 0;
     right: 0;
@@ -83,7 +87,7 @@ body {
   }
 }
 
-@media(max-width: 525px) {
+@media(max-width: 500px) {
   body {
     font-size: 1em;
   }
