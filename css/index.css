@@ -1,94 +1,49 @@
 body {
   height: 100%;
-  background: url('../images/Swish%20background.png') rgb(255, 255, 255);
-  background-repeat: no-repeat;
+  background: url('../images/Layer%2012.png') rgb(255, 255, 255);
   background-size: cover;
-  background-position: center center;
-  font: 400 1em/1.38 'Open Sans';
-  color: rgb(255, 255, 255);
+  background-position: left top;
+  font-size: 1em;
 }
 
 .container {
-  position: fixed;
-  left: 0;
-  right: 0;
+  position: relative;
+  float: left;
+  z-index: 2;
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+  height: 451px;
+  margin-top: 69px;
 }
 
 .image {
   display: block;
   position: absolute;
-  top: 23px;
   left: 0;
   right: 0;
-  width: 200px;
   height: auto;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.text {
-  position: absolute;
-  bottom: 20px;
-  left: 22%;
-  z-index: 2;
-  width: 56%;
-  font-size: 1em;
-  font-weight: 400;
-  line-height: 1.38;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.container-1 {
-  bottom: 9px;
+.wrapper {
+  position: fixed;
+  bottom: 110px;
+  left: 0;
+  right: 0;
   z-index: 3;
-  height: 55px;
+  width: 137px;
+  height: 40px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-.container-2 {
+.image-1 {
   top: 0;
-  bottom: 0;
   z-index: 1;
-  height: 242px;
-  margin-top: auto;
-  margin-bottom: auto;
+  width: 5.99852071%;
 }
 
-@media(max-width: 444px) {
-  .container {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .container .image {
-    left: 0;
-    right: 0;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .container .text {
-    bottom: -439.5px;
-    left: 21.998170045%;
-    width: 55.9966216216%;
-  }
-
-  .container-1 {
-    bottom: 509.5px;
-    height: auto;
-  }
-
-  .container-2 {
-    top: 0;
-    bottom: 0;
-    height: 350px;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
+.image-2 {
+  top: 199px;
+  width: 50%;
 }
