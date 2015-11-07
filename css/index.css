@@ -92,8 +92,7 @@ body {
     font-size: 1em;
   }
 
-  .container,
-  .wrapper {
+  .container {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -108,8 +107,20 @@ body {
     margin-left: auto;
   }
 
+  .wrapper {
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .image-1 {
+    visibility: hidden;
+  }
+
   .container .image-2 {
-    top: 86px;
+    top: 0;
     width: 100%;
   }
 }
