@@ -42,7 +42,7 @@ body {
 .image-1 {
   top: 0;
   z-index: 1;
-  width: 13%;
+  width: 13.028169014%;
 }
 
 .image-2 {
@@ -75,10 +75,37 @@ body {
   }
 
   .container .image-1 {
-    width: 13.0285274132%;
+    width: 13.0555555555%;
   }
 
   .container .image-2 {
     width: 78.8888888888%;
+  }
+}
+
+@media(max-width: 525px) {
+  body {
+    font-size: 1em;
+  }
+
+  .container,
+  .wrapper {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .image {
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .image-2 {
+    top: 150px;
+    width: 100%;
   }
 }
